@@ -1,10 +1,9 @@
-
 pipeline {
     agent any
 
     parameters {
-        booleanParam(name: 'autoApprove', defaultValue: false, description: 'Automatically run apply after generating plan?')
-        choice(name: 'action', choices: ['apply', 'destroy'], description: 'Select the action to perform')
+        booleanParam(name: 'autoApprove', defaultValue: false, description: 'Automatically approve actions without manual intervention?')
+        choice(name: 'action', choices: ['apply', 'destroy'], description: 'Select the Terraform action to perform')
     }
 
     environment {
@@ -18,22 +17,30 @@ pipeline {
                 git branch: 'feature', url: 'https://github.com/duggu7055/Durgesh01.git'
             }
         }
-        stage('Terraform init') {
+        stage('Terraform Init') {
             steps {
                 dir('Terraform') {
-                    sh 'terraform init'
+                    sh '''
+                    export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+                    export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+                    terraform init
+                    '''
                 }
             }
         }
         stage('Plan') {
             steps {
                 dir('Terraform') {
-                    sh 'terraform plan -out tfplan'
-                    sh 'terraform show -no-color tfplan > tfplan.txt'
+                    sh '''
+                    export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+                    export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+                    terraform plan -out=tfplan
+                    terraform show -no-color tfplan > tfplan.txt
+                    '''
                 }
             }
         }
-        stage('Apply / Destroy') {
+        stage('Apply or Destroy') {
             steps {
                 dir('Terraform') {
                     script {
@@ -41,14 +48,22 @@ pipeline {
                             if (!params.autoApprove) {
                                 def plan = readFile 'tfplan.txt'
                                 input message: "Do you want to apply the plan?",
-                                parameters: [text(name: 'Plan', description: 'Please review the plan', defaultValue: plan)]
+                                    parameters: [text(name: 'Plan', description: 'Review the plan below:', defaultValue: plan)]
                             }
-                            sh 'terraform apply -input=false tfplan'
+                            sh '''
+                            export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+                            export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+                            terraform apply -input=false tfplan
+                            '''
                         } else if (params.action == 'destroy') {
                             if (!params.autoApprove) {
-                                input message: "Are you sure you want to destroy the infrastructure?"
+                                input message: "Are you absolutely sure you want to destroy the infrastructure? This action is irreversible."
                             }
-                            sh 'terraform destroy --auto-approve'
+                            sh '''
+                            export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+                            export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+                            terraform destroy --auto-approve
+                            '''
                         } else {
                             error "Invalid action selected. Please choose either 'apply' or 'destroy'."
                         }
@@ -57,4 +72,13 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            echo "Pipeline execution completed."
+        }
+        failure {
+            echo "Pipeline execution failed. Please check the logs."
+        }
+    }
 }
+
