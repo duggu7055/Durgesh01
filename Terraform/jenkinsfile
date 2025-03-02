@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'feature', url: 'https://github.com/CodeSagarOfficial/jenkins-scripts.git'
+                git branch: 'feature', url: 'https://github.com/duggu7055/Durgesh01.git'
             }
         }
         stage('Terraform init') {
