@@ -1,4 +1,3 @@
-
 # Define the VPC
 resource "aws_vpc" "main_vpc" {
   cidr_block = "10.0.0.0/16"
@@ -61,7 +60,7 @@ resource "aws_route_table_association" "pub_rt_asso" {
 
 # Elastic IP for NAT Gateway
 resource "aws_eip" "nat_eip" {
-  vpc_id = aws_vpc.main_vpc.id
+  # vpc_id = aws_vpc.main_vpc.id
 
   tags = {
     Name = "nat_eip"
@@ -145,18 +144,21 @@ resource "aws_instance" "mysql_server" {
   provisioner "remote-exec" {
     inline = [
       "sudo apt update -y",
+      "sudo apt install -y software-properties-common",
+      "sudo add-apt-repository --yes --update ppa:ansible/ansible",
+      "sudo apt update -y",
       "sudo apt install -y ansible",
       "ansible-playbook /home/ubuntu/playbook.yml --connection=local"
     ]
 
     connection {
-      type                = "ssh"
-      user                = "ubuntu"
-      private_key         = file("./tool.pem")
-      host                = self.private_ip
-      bastion_host        = aws_instance.bastion_host.public_ip
-      bastion_user        = "ubuntu"
-      bastion_private_key = file("./tool.pem")
+      type                   = "ssh"
+      user                   = "ubuntu"
+      private_key            = file("./tool.pem")
+      host                   = self.private_ip # Use the private IP of the MySQL instance
+      bastion_host           = aws_instance.bastion_host.public_ip # Connect via bastion host
+      bastion_user           = "ubuntu"
+      bastion_private_key    = file("./tool.pem")
     }
   }
 }
