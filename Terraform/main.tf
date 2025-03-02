@@ -7,12 +7,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "demo-bucket-abcdefd12345"       # Replace with your S3 bucket name
-    key            = "terraform/state/terraform.tfstate" # Path to store the state file
-    region         = "ap-south-1"                        # AWS region
-    encrypt        = true                                # Enable encryption at rest
-    dynamodb_table = "terraform-lock-table"              # Optional: DynamoDB table for state locking
-  }
+    bucket         = "demo-bucket-abcdefd12345"      
+   key            = "terraform/state"
+  region         = "ap-south-1"
+  use_lockfile   = true
+}
 }
 
 # Define the VPC
