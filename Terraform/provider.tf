@@ -10,8 +10,8 @@ terraform {
     bucket         = "demo-bucket-abcdefd12345"
     key            = "terraform/state"
     region         = "ap-south-1"
-    dynamodb_table = "terraform-locks" # Optional: Lock table for state locking
-    encrypt        = true              # Optional: Encrypt the state file
+    # dynamodb_table = "terraform-locks" # Optional: Lock table for state locking
+    # encrypt        = true              # Optional: Encrypt the state file
   }
 }
 
@@ -21,3 +21,4 @@ provider "aws" {
   secret_key = var.aws_secret_key
   region     = "ap-south-1"
 }
+
