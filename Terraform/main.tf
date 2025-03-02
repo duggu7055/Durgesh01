@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "durgeshkumar12356"       # Replace with your S3 bucket name
+    bucket         = "demo-bucket-abcdefd12345"       # Replace with your S3 bucket name
     key            = "terraform/state/terraform.tfstate" # Path to store the state file
     region         = "ap-south-1"                        # AWS region
     encrypt        = true                                # Enable encryption at rest
