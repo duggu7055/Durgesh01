@@ -13,7 +13,7 @@ terraform {
   region         = "ap-south-1"
   use_lockfile   = true
 }
-}
+
 
 # Define the VPC
 resource "aws_vpc" "main_vpc" {
