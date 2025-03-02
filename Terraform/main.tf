@@ -5,15 +5,15 @@ terraform {
       version = "~> 3.0"
     }
   }
-}
 
   backend "s3" {
-    bucket         = "demo-bucket-abcdefd12345"      
-   key            = "terraform/state"
-  region         = "ap-south-1"
-  use_lockfile   = true
+    bucket         = "demo-bucket-abcdefd12345"
+    key            = "terraform/state"
+    region         = "ap-south-1"
+    dynamodb_table = "terraform-locks" # Optional: Lock table for state locking
+    encrypt        = true              # Optional: Encrypt the state file
+  }
 }
-
 
 # Define the VPC
 resource "aws_vpc" "main_vpc" {
@@ -77,7 +77,7 @@ resource "aws_route_table_association" "pub_rt_asso" {
 
 # Elastic IP for NAT Gateway
 resource "aws_eip" "nat_eip" {
-  domain = "vpc"
+  vpc_id = aws_vpc.main_vpc.id
 
   tags = {
     Name = "nat_eip"
@@ -150,8 +150,8 @@ resource "aws_instance" "mysql_server" {
       type                = "ssh"
       user                = "ubuntu"
       private_key         = file("./tool.pem")
-      host                = self.private_ip # Use the private IP of the MySQL instance
-      bastion_host        = aws_instance.bastion_host.public_ip # Connect via bastion host
+      host                = self.private_ip
+      bastion_host        = aws_instance.bastion_host.public_ip
       bastion_user        = "ubuntu"
       bastion_private_key = file("./tool.pem")
     }
@@ -161,9 +161,6 @@ resource "aws_instance" "mysql_server" {
   provisioner "remote-exec" {
     inline = [
       "sudo apt update -y",
-      "sudo apt install -y software-properties-common",
-      "sudo add-apt-repository --yes --update ppa:ansible/ansible",
-      "sudo apt update -y",
       "sudo apt install -y ansible",
       "ansible-playbook /home/ubuntu/playbook.yml --connection=local"
     ]
@@ -172,8 +169,8 @@ resource "aws_instance" "mysql_server" {
       type                = "ssh"
       user                = "ubuntu"
       private_key         = file("./tool.pem")
-      host                = self.private_ip # Use the private IP of the MySQL instance
-      bastion_host        = aws_instance.bastion_host.public_ip # Connect via bastion host
+      host                = self.private_ip
+      bastion_host        = aws_instance.bastion_host.public_ip
       bastion_user        = "ubuntu"
       bastion_private_key = file("./tool.pem")
     }
