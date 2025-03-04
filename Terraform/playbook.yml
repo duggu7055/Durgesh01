@@ -18,3 +18,33 @@
         name: mysql
         state: started
         enabled: yes
+
+    - name: Set MySQL root password (pre-configure)
+      debconf:
+        name: mysql-server
+        question: "mysql-server/root_password"
+        value: "Passw0rd!1234"
+        vtype: "string"
+
+    - name: Confirm MySQL root password
+      debconf:
+        name: mysql-server
+        question: "mysql-server/root_password_again"
+        value: "Passw0rd!1234"
+        vtype: "string"
+
+    - name: Secure MySQL installation by setting root password
+      mysql_user:
+        name: root
+        host: localhost
+        password: "Passw0rd!1234"
+        check_implicit_admin: yes
+        state: present
+
+    - name: Create a new MySQL user
+      mysql_user:
+        name: durgesh
+        password: "Passw0rd!123"
+        host: "%"
+        priv: "*.*:ALL"
+        state: present
