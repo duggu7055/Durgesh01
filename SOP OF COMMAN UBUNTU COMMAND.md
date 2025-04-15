@@ -256,7 +256,7 @@ It includes commands for file operations, directory management, user permissions
 
 ---
 
-## 📚 **Reference Table** 
+## **Reference Table** 
 
 | Other Commands                    | Link        |
 | :--------                         | :------------------ |
