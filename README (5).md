@@ -11,9 +11,9 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
-2. [Scope](#💻scope)
-3. [Prerequisites](#✅-prerequisites)
-4. [Commands](#⚡-commands)
+2. [Scope](#scope)
+3. [Prerequisites](#prerequisites)
+4. [Commands](#commands)
     - [Basic System Commands](#1-basic-system-commands)
     - [File Commands](#2-file-commands)
     - [Directory Commands](#3-directory-commands)
@@ -21,9 +21,9 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
     - [Process Management Commands](#5-process-management-commands)
     - [Network Commands](#6-network-commands)
     - [Disk Management](#7-disk-management)
-5. [Notes](#📌-notes)
-6. [Reference Table](#📚-reference-table)
-7. [Author](#📝-author)
+5. [Notes](#notes)
+6. [Reference Table](#reference-table)
+7. [Contact](#contact)
 
 ---
 
@@ -32,19 +32,19 @@ This document serves as a comprehensive guide to essential Ubuntu commands, desi
 
 ---
 
-## 💻**Scope** 
+## **Scope** 
 Applicable for users managing Ubuntu systems for personal, development, or server-related tasks. 
 It includes commands for file operations, directory management, user permissions, process monitoring, and more.
 
 ---
 
-## ✅ **Prerequisites** 
+## **Prerequisites** 
 - Access to a terminal on an Ubuntu system.
 - Appropriate permissions for commands requiring `sudo`.
 
 ---
 
-## ⚡ **Commands** 
+## **Commands** 
 
 ### **1. Basic System Commands**
 1. **Check Ubuntu Version**
@@ -249,7 +249,7 @@ It includes commands for file operations, directory management, user permissions
 
 ---
 
-## 📌 **Notes** 
+## **Notes** 
 - Always double-check commands involving `sudo` to avoid unintentional changes.
 - Refer to the `man` command (e.g., `man ls`) for detailed usage instructions.
 - For troubleshooting, consult the [Ubuntu Documentation](https://help.ubuntu.com/).
@@ -264,6 +264,6 @@ It includes commands for file operations, directory management, user permissions
 
 ---
 
-## 📝 **Author** 
+## **Contact** 
 - **Name**: Durgesh Sharma
 - **E-Mail**: durgesh.sharma.snaatak@mygurukulam.co
