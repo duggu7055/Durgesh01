@@ -9,18 +9,18 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
 | :------- | :------- | :------- | :------- | :------- |
 | 14-04-2025| V1 | **Durgesh Sharma** |          |   **Pritam**      |
 
-## Table of Contents
+## **Table of Contents**
 1. [Introduction](#introduction)
 2. [Scope](#scope)
 3. [Prerequisites](#prerequisites)
 4. [Commands](#commands)
-    - [Basic System Commands](#basic-system-commands)
-    - [File Commands](#file-commands)
-    - [Directory Commands](#directory-commands)
-    - [File Permission Commands](#file-permission-commands)
-    - [Process Management Commands](#process-management-commands)
-    - [Network Commands](#network-commands)
-    - [Disk Management](#disk-management)
+    - [Basic System Commands](#1-basic-system-commands)
+    - [File Commands](#2-file-commands)
+    - [Directory Commands](#3-directory-commands)
+    - [File Permission Commands](#4-file-permission-commands)
+    - [Process Management Commands](#5-process-management-commands)
+    - [Network Commands](#6-network-commands)
+    - [Disk Management](#7-disk-management)
 5. [Notes](#notes)
 6. [Reference Table](#reference-table)
 7. [Author](#author)
