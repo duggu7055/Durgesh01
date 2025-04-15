@@ -10,10 +10,10 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
 | 14-04-2025| V1 | **Durgesh Sharma** |          |   **Pritam**      |
 
 ## **Table of Contents**
-1. [Introduction](#introduction)
-2. [Scope](#scope)
-3. [Prerequisites](#prerequisites)
-4. [Commands](#commands)
+1. [Introduction](#🎯-introduction)
+2. [Scope](#💻-scope)
+3. [Prerequisites](#✅-prerequisites)
+4. [Commands](#⚡-commands)
     - [Basic System Commands](#1-basic-system-commands)
     - [File Commands](#2-file-commands)
     - [Directory Commands](#3-directory-commands)
@@ -21,9 +21,9 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
     - [Process Management Commands](#5-process-management-commands)
     - [Network Commands](#6-network-commands)
     - [Disk Management](#7-disk-management)
-5. [Notes](#notes)
-6. [Reference Table](#reference-table)
-7. [Author](#author)
+5. [Notes](#📌-notes)
+6. [Reference Table](#📚-reference-table)
+7. [Author](#📝-author)
 
 ---
 
@@ -267,12 +267,3 @@ It includes commands for file operations, directory management, user permissions
 ## 📝 **Author** 
 - **Name**: Durgesh Sharma
 - **E-Mail**: durgesh.sharma.snaatak@mygurukulam.co
-
-
-## 📝 **Author**
-**Name** - **Durgesh Sharma**
- 
- **E-Mail id** - **durgesh.sharma.snaatak@mygurukulam.co**
-
-
-
