@@ -27,24 +27,24 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
 
 ---
 
-##  **Introduction** 
+##  ✨**Introduction** 
 This document serves as a comprehensive guide to essential **Ubuntu commands**, designed to help users efficiently manage their system. Whether you're a beginner or an experienced user, these commands cover key tasks such as system maintenance, file management, and troubleshooting. By familiarizing yourself with these Ubuntu commands, you’ll be able to streamline your workflow, solve problems faster, and gain better control over your Ubuntu environment. Mastering these basic Ubuntu commands will ultimately boost your productivity and enhance your ability to manage your system effectively.
 
 ---
 
-## **Scope** 
+## 🎯**Scope** 
 Applicable for users managing Ubuntu systems for personal, development, or server-related tasks. 
 It includes commands for file operations, directory management, user permissions, process monitoring, and more.
 
 ---
 
-## **Prerequisites** 
+## ✅**Prerequisites** 
 - Access to a terminal on an Ubuntu system.
 - Appropriate permissions for commands requiring `sudo`.
 
 ---
 
-## **Commands** 
+## 🛠️**Commands** 
 
 ### **1. Basic System Commands**
 1. **Check Ubuntu Version**
@@ -249,14 +249,14 @@ It includes commands for file operations, directory management, user permissions
 
 ---
 
-## **Notes** 
+## 📝**Notes** 
 - Always double-check commands involving `sudo` to avoid unintentional changes.
 - Refer to the `man` command (e.g., `man ls`) for detailed usage instructions.
 - For troubleshooting, consult the [Ubuntu Documentation](https://help.ubuntu.com/).
 
 ---
 
-## **Reference Table** 
+## 📚**Reference Table** 
 
 | Other Commands                    | Link        |
 | :--------                         | :------------------ |
@@ -264,6 +264,7 @@ It includes commands for file operations, directory management, user permissions
 
 ---
 
-## **Contact** 
-- **Name**: **Durgesh Sharma**
-- **E-Mail**: **durgesh.sharma.snaatak@mygurukulam.co**
+## 📧**Contact** 
+| **Name**           | **Email Address**                                 |
+|----------------|-----------------------------------------------|
+| Durgesh Sharma | durgesh.sharma.snaatak@mygurukulam.co         |
