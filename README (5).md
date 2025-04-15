@@ -11,7 +11,7 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
-2. [Scope](#💻-scope)
+2. [Scope](#💻scope)
 3. [Prerequisites](#✅-prerequisites)
 4. [Commands](#⚡-commands)
     - [Basic System Commands](#1-basic-system-commands)
@@ -32,7 +32,7 @@ This document serves as a comprehensive guide to essential Ubuntu commands, desi
 
 ---
 
-## 💻 **Scope** 
+## 💻**Scope** 
 Applicable for users managing Ubuntu systems for personal, development, or server-related tasks. 
 It includes commands for file operations, directory management, user permissions, process monitoring, and more.
 
