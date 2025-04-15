@@ -10,7 +10,7 @@ This document provides a comprehensive guide for frequently used Ubuntu commands
 | 14-04-2025| V1 | **Durgesh Sharma** |          |   **Pritam**      |
 
 ## **Table of Contents**
-1. [Introduction](#🎯-introduction)
+1. [Introduction](#introduction)
 2. [Scope](#💻-scope)
 3. [Prerequisites](#✅-prerequisites)
 4. [Commands](#⚡-commands)
