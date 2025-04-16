@@ -16,7 +16,7 @@
 6. [🚀 Getting Started](#-getting-started)
    - [🛠️ Pre-requisites](#️-pre-requisites)
    - [🖥️ Software Overview](#️-software-overviews)
-   - [🖥️ System Requirements](#️-software-overview)
+   - [🖥️ System Requirements](#️-system-requirements)
    - [✅ System Requirements](#️-system-requirements)
 7. [📦 Installation Commands](#-installation-commands)
 8. [❓ FAQs](#-faqs)
