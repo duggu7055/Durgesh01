@@ -10,7 +10,7 @@ This guide will walk you through the process of installing and understanding the
 
 ## 📖 Table of Contents
 
-1. [👤 Author Information](#-author-information)
+1. [Author Information](#-author-information)
 2. [Introduction](#-introduction)
 3. [Why Use Make](#-why-use-make)
 4. [What is Make](#what-is-make)
