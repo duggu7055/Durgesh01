@@ -13,7 +13,7 @@ This guide will walk you through the process of installing and understanding the
 1. [Author Information](#-author-information)
 2. [Introduction](#-introduction)
 3. [Why Use Make](#-why-use-make)
-4. [What is Make](#️-what-is-make)
+4. [What is Make](#-what-is-make)
 5. [Prerequisites](#-prerequisites)
 6. [Installation on Linux](#-installation-on-linux)
 7. [Installation on macOS](#-installation-on-macos)
