@@ -13,7 +13,7 @@ This guide will walk you through the process of installing and understanding the
 5. [Installation on Linux](#-installation-on-linux)
 6. [Installation on macOS](#-installation-on-macos)
 7. [Installation on Windows](#-installation-on-windows)
-8. [Understanding the Make Command](#understanding-the-make-command)
+8. [Understanding the Make Command](#️-understanding-the-make-command)
 9. [References](#-references)
 10. [Contact Information](#-contact-information)
 11. [Troubleshooting](#️-troubleshooting)
