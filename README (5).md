@@ -7,13 +7,13 @@ This guide will walk you through the process of installing and understanding the
 ## 📖 Table of Contents
 
 1. [Introduction](#introduction)
-2. [Why Use `Make`](#why-use-make)
-3. [What is `Make`](#what-is-make)
+2. [Why Use Make](#why-use-make)
+3. [What is Make](#what-is-make)
 4. [Prerequisites](#prerequisites)
 5. [Installation on Linux](#installation-on-linux)
 6. [Installation on macOS](#installation-on-macos)
 7. [Installation on Windows](#installation-on-windows)
-8. [Understanding the `Make` Command](#understanding-the-make-command)
+8. [Understanding the Make Command](#understanding-the-make-command)
 9. [References](#references)
 10. [Contact Information](#contact-information)
 11. [Troubleshooting](#troubleshooting)
@@ -21,7 +21,7 @@ This guide will walk you through the process of installing and understanding the
 
 ---
 
-## 🌟 **Introduction**
+## 🌟 Introduction
 
 `Make` is a powerful build automation tool widely used in software development. By defining tasks in a `Makefile`, developers can automate the process of compiling, linking, and managing dependencies in their projects. 
 
@@ -29,7 +29,7 @@ This guide provides step-by-step instructions to install `Make` and leverage its
 
 ---
 
-## 🤔 Why Use `Make`
+## 🤔 Why Use Make
 
 - **Efficiency**: Automates repetitive tasks, saving time and effort.
 - **Consistency**: Ensures that builds are performed the same way every time.
@@ -40,7 +40,7 @@ Whether you're managing a small project or a large-scale application, `Make` can
 
 ---
 
-## 🛠️ What is `Make`
+## 🛠️ What is Make
 
 At its core, `Make` is a build system that processes a `Makefile` to determine the sequence of actions required to build a project. It operates on a set of rules:
 
@@ -165,7 +165,7 @@ On Windows, `Make` can be installed as part of the GNU utilities for Windows or 
 
 ---
 
-## ⚙️ Understanding the `Make` Command
+## ⚙️ Understanding the Make Command
 
 The `Make` utility automates the process of compiling and building software projects by reading a file called `Makefile`. Here’s how it works:
 
