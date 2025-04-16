@@ -15,7 +15,7 @@
 5. [🧩 Use Cases](#-use-cases)
 6. [🚀 Getting Started](#-getting-started)
    - [🛠️ Pre-requisites](#️-pre-requisites)
-   - [🖥️ Software Overview](#️-system-requirements)
+   - [🖥️ Software Overview](#️-software-overviews)
    - [🖥️ System Requirements](#️-software-overview)
    - [✅ System Requirements](#️-system-requirements)
 7. [📦 Installation Commands](#-installation-commands)
