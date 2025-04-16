@@ -16,7 +16,7 @@ This guide will walk you through the process of installing and understanding the
 8. [Understanding the Make Command](#understanding-the-make-command)
 9. [References](#-references)
 10. [Contact Information](#-contact-information)
-11. [Troubleshooting](#troubleshooting)
+11. [🛠️ Troubleshooting](#️-troubleshooting)
 12. [Conclusion](#-conclusion)
 
 ---
@@ -232,7 +232,7 @@ make clean
 
 ---
 
-## 🛠️Troubleshooting
+## 🛠️ Troubleshooting
 
 If you encounter issues:
 
