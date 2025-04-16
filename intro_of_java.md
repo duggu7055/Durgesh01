@@ -1,5 +1,5 @@
 
-# 🚀 **Java Intro Documentation**
+# 🚀 **Java Introduction Documentation**
 
 ## 👤 **Author Information**
 | **Author** | **Created on** | **Version**  | **Comment** | **Reviewer** |
