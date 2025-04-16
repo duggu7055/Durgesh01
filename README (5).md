@@ -228,7 +228,7 @@ make clean
 
 | **Name**          | **Email**                              |
 |-------------------|--------------------------------------|
-| Durgesh Sharma    | durgesh.sharma.snaatak@gmail.com     |
+| Durgesh Sharma    | durgesh.sharma.snaatak@mygurukulam.co    |
 
 ---
 
