@@ -5,9 +5,6 @@ This guide will walk you through the process of installing and understanding the
 ---
 
 ## 📖 Table of Contents
-
-
-
 1. [Introduction](#-introduction)
 2. [Why Use Make](#-why-use-make)
 3. [What is Make](#-what-is-make)
