@@ -16,7 +16,7 @@
 6. [🚀 Getting Started](#-getting-started)
    - [🛠️ Pre-requisites](#️-pre-requisites)
    - [🖥️ Software Overview](#️-software-overview)
-   - [💻 System Requirements](#️-system-requirements)
+   - [✅ System Requirements](#️-system-requirements)
 7. [📦 Installation Commands](#-installation-commands)
 8. [❓ FAQs](#-faqs)
 9. [📬 Contact Information](#-contact-information)
@@ -89,7 +89,7 @@ Java was conceived in **1991** by **James Gosling** and his team at Sun Microsys
 | Java         | **19**        |
 | Java         | **20**        |
 
-### 💻 **System Requirements**
+### ✅ **System Requirements**
 | **Requirement**             | **Minimum Recommendation**       |
 |-----------------------------|-----------------------------------|
 | 🖥️ **Processor/Instance Type** | **Dual-Core/T2.medium instance** |
