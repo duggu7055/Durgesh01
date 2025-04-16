@@ -1,4 +1,3 @@
-
 # 🚀 Step-by-Step Installation Guide for `Make`
 
 This guide will walk you through the process of installing and understanding the usage of `Make` on your system, whether you're using Linux, macOS, or Windows. Additionally, it provides insights into why `Make` is essential and what it accomplishes.
@@ -7,18 +6,18 @@ This guide will walk you through the process of installing and understanding the
 
 ## 📖 Table of Contents
 
-1. [Introduction](#introduction)
-2. [Why Use `Make`](#why-use-make)
-3. [What is `Make`](#what-is-make)
-4. [Prerequisites](#prerequisites)
-5. [Installation on Linux](#installation-on-linux)
-6. [Installation on macOS](#installation-on-macos)
-7. [Installation on Windows](#installation-on-windows)
-8. [⚙️ Understanding the `Make` Command](#understanding-the-make-command)
-9. [References](#references)
-10. [Contact Information](#contact-information)
-11. [Troubleshooting](#troubleshooting)
-12. [Conclusion](#conclusion)
+1. [Introduction](#🌟-introduction)
+2. [Why Use `Make`](#🤔-why-use-make)
+3. [What is `Make`](#🛠️-what-is-make)
+4. [Prerequisites](#✅-prerequisites)
+5. [Installation on Linux](#🐧-installation-on-linux)
+6. [Installation on macOS](#🍏-installation-on-macos)
+7. [Installation on Windows](#🪟-installation-on-windows)
+8. [⚙️ Understanding the `Make` Command](#⚙️-understanding-the-make-command)
+9. [References](#📚-references)
+10. [Contact Information](#📧-contact-information)
+11. [Troubleshooting](#🛠️-troubleshooting)
+12. [Conclusion](#🎯-conclusion)
 
 ---
 
@@ -130,7 +129,9 @@ On Windows, `Make` can be installed as part of the GNU utilities for Windows or 
    If not already installed, run the following command in PowerShell (as Administrator):
 
    ```powershell
-   Set-ExecutionPolicy Bypass -Scope Process -Force; \n   [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; \n   iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   Set-ExecutionPolicy Bypass -Scope Process -Force; 
+   [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
+   iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
 
 2. **Install Make**:
@@ -227,7 +228,7 @@ make clean
 
 | **Name**          | **Email**                              |
 |-------------------|--------------------------------------|
-| Durgesh Sharma    | durgesh.sharma.snaatak@mygurukulam.co     |
+| Durgesh Sharma    | durgesh.sharma.snaatak@gmail.com     |
 
 ---
 
@@ -245,5 +246,3 @@ If you encounter issues:
 You have now successfully installed `Make` on your system and understand its basic usage. Use `make` commands to build and manage your projects efficiently.
 
 For further information, visit the [GNU Make Official Documentation](https://www.gnu.org/software/make/).
-
-
