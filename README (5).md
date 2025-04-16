@@ -165,7 +165,7 @@ On Windows, `Make` can be installed as part of the GNU utilities for Windows or 
 
 ---
 
-## ⚙️Understanding the Make Command
+## ⚙️ Understanding the Make Command
 
 The `Make` utility automates the process of compiling and building software projects by reading a file called `Makefile`. Here’s how it works:
 
