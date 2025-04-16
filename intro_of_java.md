@@ -1,5 +1,6 @@
 
 # 🚀 **Java Introduction Documentation**
+![Java Logo](https://as1.ftcdn.net/v2/jpg/04/51/12/88/1000_F_451128839_vmKOyil368UoXcac46W7aaqelTtLuNFk.jpg "Java Logo")
 
 ## 👤 **Author Information**
 | **Author** | **Created on** | **Version**  | **Comment** | **Reviewer** |
