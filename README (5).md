@@ -241,7 +241,7 @@ If you encounter issues:
 
 ---
 
-## 🎯 Conclusion
+## 🎯**Conclusion**
 
 You have now successfully installed `Make` on your system and understand its basic usage. Use `make` commands to build and manage your projects efficiently.
 
