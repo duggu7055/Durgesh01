@@ -29,7 +29,7 @@ This guide provides step-by-step instructions to install `Make` and leverage its
 
 ---
 
-## 🤔 Why Use Make
+## 🤔**Why Use Make**
 
 - **Efficiency**: Automates repetitive tasks, saving time and effort.
 - **Consistency**: Ensures that builds are performed the same way every time.
@@ -40,7 +40,7 @@ Whether you're managing a small project or a large-scale application, `Make` can
 
 ---
 
-## 🛠️ What is Make
+## 🛠️**What is Make**
 
 At its core, `Make` is a build system that processes a `Makefile` to determine the sequence of actions required to build a project. It operates on a set of rules:
 
@@ -55,7 +55,7 @@ For example, in a C project, `Make` can:
 
 ---
 
-## ✅ Prerequisites
+## ✅**Prerequisites**
 
 Ensure you have the following before beginning:
 
@@ -65,7 +65,7 @@ Ensure you have the following before beginning:
 
 ---
 
-## 🐧 Installation on Linux
+## 🐧**Installation on Linux**
 
 `Make` is typically included with most Linux distributions. If it's not already installed, follow these steps:
 
@@ -95,7 +95,7 @@ You should see output indicating the version number of `Make`.
 
 ---
 
-## 🍏 Installation on macOS
+## 🍏**Installation on macOS**
 
 `Make` is included as part of Xcode Command Line Tools. Use the following steps:
 
@@ -119,7 +119,7 @@ If you see the version number, the installation was successful.
 
 ---
 
-## 🪟 Installation on Windows
+## 🪟**Installation on Windows**
 
 On Windows, `Make` can be installed as part of the GNU utilities for Windows or via a package manager like Chocolatey.
 
@@ -165,7 +165,7 @@ On Windows, `Make` can be installed as part of the GNU utilities for Windows or 
 
 ---
 
-## ⚙️ Understanding the Make Command
+## ⚙️**Understanding the Make Command**
 
 The `Make` utility automates the process of compiling and building software projects by reading a file called `Makefile`. Here’s how it works:
 
@@ -213,7 +213,7 @@ make clean
 
 ---
 
-## 📚 References
+## 📚**References**
 
 | **Resource**                     | **Description**                                    |
 |----------------------------------|--------------------------------------------------|
@@ -224,7 +224,7 @@ make clean
 
 ---
 
-## 📧 Contact Information
+## 📧**Contact Information**
 
 | **Name**          | **Email**                              |
 |-------------------|--------------------------------------|
@@ -232,7 +232,7 @@ make clean
 
 ---
 
-## 🛠️ Troubleshooting
+## 🛠️**Troubleshooting**
 
 If you encounter issues:
 
