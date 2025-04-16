@@ -13,7 +13,7 @@ This guide will walk you through the process of installing and understanding the
 1. [Author Information](#-author-information)
 2. [Introduction](#-introduction)
 3. [Why Use Make](#-why-use-make)
-4. [What is Make](#what-is-make)
+4. [What is Make](#️-what-is-make)
 5. [Prerequisites](#-prerequisites)
 6. [Installation on Linux](#-installation-on-linux)
 7. [Installation on macOS](#-installation-on-macos)
@@ -45,7 +45,7 @@ Whether you're managing a small project or a large-scale application, `Make` can
 
 ---
 
-##  What is Make
+## ❓ What is Make
 
 At its core, `Make` is a build system that processes a `Makefile` to determine the sequence of actions required to build a project. It operates on a set of rules:
 
