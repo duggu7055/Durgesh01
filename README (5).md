@@ -21,7 +21,7 @@ This guide will walk you through the process of installing and understanding the
 
 ---
 
-## 🌟 Introduction
+## 🌟**Introduction**
 
 `Make` is a powerful build automation tool widely used in software development. By defining tasks in a `Makefile`, developers can automate the process of compiling, linking, and managing dependencies in their projects. 
 
