@@ -179,23 +179,7 @@ The `Make` utility automates the process of compiling and building software proj
 | **Dependencies**| Files required for building the target.                                                          |
 | **Rules**       | Commands that specify how to build the target from its dependencies.                             |
 
-### Example `Makefile`:
-
-```make
-all: program
-
-program: main.o utils.o
-	gcc -o program main.o utils.o
-
-main.o: main.c
-	gcc -c main.c
-
-utils.o: utils.c
-	gcc -c utils.c
-
-clean:
-	rm -f *.o program
-```
+---
 
 ### Running `Make`:
 
