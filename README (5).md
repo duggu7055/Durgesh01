@@ -53,10 +53,6 @@ At its core, `Make` is a build system that processes a `Makefile` to determine t
 - **Dependencies**: The files or inputs needed to build a target.
 - **Commands**: The actions performed to produce the target from its dependencies.
 
-For example, in a C project, `Make` can:
-- Compile source files into object files.
-- Link object files into an executable.
-- Clean up temporary files.
 
 ---
 
