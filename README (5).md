@@ -18,10 +18,10 @@ This guide will walk you through the process of installing and understanding the
 6. [Installation on Linux](#installation-on-linux)
 7. [Installation on macOS](#installation-on-macos)
 8. [Installation on Windows](#installation-on-windows)
-9. [Understanding the Make Command](#️understanding-the-make-command)
+9. [Understanding the Make Command](#understanding-the-make-command)
 10. [References](#references)
 11. [Contact Information](#contact-information)
-12. [Troubleshooting](#️troubleshooting)
+12. [Troubleshooting](#troubleshooting)
 13. [Conclusion](#conclusion)
 
 ---
@@ -120,7 +120,7 @@ If you see the version number, the installation was successful.
 
 ---
 
-## 🪟 Installation on Windows
+##  Installation on Windows
 
 On Windows, `Make` can be installed as part of the GNU utilities for Windows or via a package manager like Chocolatey.
 
@@ -226,7 +226,7 @@ If you encounter issues:
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 You have now successfully installed `Make` on your system and understand its basic usage. Use `make` commands to build and manage your projects efficiently.
 
