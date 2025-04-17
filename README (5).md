@@ -1,9 +1,9 @@
-# 🚀 Step-by-Step Installation Guide for `Make`
+#  Step-by-Step Installation Guide for `Make`
 
 This guide will walk you through the process of installing and understanding the usage of `Make` on your system, whether you're using Linux, macOS, or Windows. Additionally, it provides insights into why `Make` is essential and what it accomplishes.
 
 ---
-## 👤 **Author Information**
+##  **Author Information**
 | **Author** | **Created on** | **Version**  | **Comment** | **Reviewer** |
 |------------|----------------|--------------|-------------|--------------|
 | **Durgesh Sharma**   | **16-04-2025**   | **Version 1** | **Internal review** | **Pritam** |
@@ -26,7 +26,7 @@ This guide will walk you through the process of installing and understanding the
 
 ---
 
-## 🌟 Introduction
+##  Introduction
 
 `Make` is a powerful build automation tool widely used in software development. By defining tasks in a `Makefile`, developers can automate the process of compiling, linking, and managing dependencies in their projects. 
 
@@ -34,7 +34,7 @@ This guide provides step-by-step instructions to install `Make` and leverage its
 
 ---
 
-## 🤔 Why Use Make
+##  Why Use Make
 
 - **Efficiency**: Automates repetitive tasks, saving time and effort.
 - **Consistency**: Ensures that builds are performed the same way every time.
@@ -45,7 +45,7 @@ Whether you're managing a small project or a large-scale application, `Make` can
 
 ---
 
-## ❓ What is Make
+##  What is Make
 
 At its core, `Make` is a build system that processes a `Makefile` to determine the sequence of actions required to build a project. It operates on a set of rules:
 
@@ -56,7 +56,7 @@ At its core, `Make` is a build system that processes a `Makefile` to determine t
 
 ---
 
-## ✅ Prerequisites
+##  Prerequisites
 
 Ensure you have the following before beginning:
 
@@ -66,7 +66,7 @@ Ensure you have the following before beginning:
 
 ---
 
-## 🐧 Installation on Linux
+##  Installation on Linux
 
 `Make` is typically included with most Linux distributions. If it's not already installed, follow these steps:
 
@@ -96,7 +96,7 @@ You should see output indicating the version number of `Make`.
 
 ---
 
-## 🍏 Installation on macOS
+##  Installation on macOS
 
 `Make` is included as part of Xcode Command Line Tools. Use the following steps:
 
@@ -166,7 +166,7 @@ On Windows, `Make` can be installed as part of the GNU utilities for Windows or 
 
 ---
 
-## ⚙️ Understanding the Make Command
+##  Understanding the Make Command
 
 The `Make` utility automates the process of compiling and building software projects by reading a file called `Makefile`. Here’s how it works:
 
@@ -198,7 +198,7 @@ make clean
 
 ---
 
-## 📚 References
+##  References
 
 | **Resource**                     | **Description**                                    |
 |----------------------------------|--------------------------------------------------|
@@ -209,7 +209,7 @@ make clean
 
 ---
 
-## 📧 Contact Information
+##  Contact Information
 
 | **Name**          | **Email**                              |
 |-------------------|--------------------------------------|
@@ -217,7 +217,7 @@ make clean
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 If you encounter issues:
 
