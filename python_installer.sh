@@ -1,3 +1,9 @@
+#Author - Durgesh Sharma
+#created on - 17/4/2025
+#version - v1
+#Reviewer - Pritam
+
+
 #!/bin/bash
 
 # Define installation directories and other variables
