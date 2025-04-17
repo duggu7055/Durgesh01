@@ -8,11 +8,11 @@ This guide will walk you through the process of installing and understanding the
 |------------|----------------|--------------|-------------|--------------|
 | **Durgesh Sharma**   | **16-04-2025**   | **Version 1** | **Internal review** | **Pritam** |
 
-## 📖 Table of Contents
+##  Table of Contents
 
-1. [Author Information](#-author-information)
-2. [Introduction](#-introduction)
-3. [Why Use Make](#-why-use-make)
+1. [Author Information](#author-information)
+2. [Introduction](#introduction)
+3. [Why Use Make](#why-use-make)
 4. [What is Make](#-what-is-make)
 5. [Prerequisites](#-prerequisites)
 6. [Installation on Linux](#-installation-on-linux)
