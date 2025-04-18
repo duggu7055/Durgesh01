@@ -5,7 +5,10 @@ Golang, or Go, is an open-source language known for its speed and scalability, w
 
 ---
 
-<img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Yellow.png" alt="logo" width="900" height="400">
+
+  <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Yellow.png" alt="logo" width="400" height="300">
+
+
 
 ---
 
