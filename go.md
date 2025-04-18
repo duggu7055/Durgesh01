@@ -30,6 +30,8 @@ Golang, or Go, is an open-source language known for its speed and scalability, w
 5. [Contact](#contact)
 6. [References](#references)
 
+---
+
 
 ## Introduction
 This repository contains a bash script designed to simplify the process of installing and managing multiple versions of Golang on various Linux distributions. The script ensures compatibility across major operating systems and automates the configuration of your Go environment. 
