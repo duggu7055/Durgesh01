@@ -1,6 +1,14 @@
 
 # Python Installation Script
 
+## **Author Information**
+| **Created**       | **Version** | **Last Modified** | **Author**        | **Level**            | **Reviewer**  |
+|--------------------|-------------|-------------------|-------------------|------------------------|---------------|
+| 17-04-2025         |           |         | Durgesh Sharma    | Internal review        | Pritam        |
+|  17-04-2025          |          |         | Durgesh Sharma      | L0 Review | Shreya Jaiswal        |
+
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -8,17 +16,24 @@
   - [Step 2: Grant Execution Permission](#step-2-grant-execution-permission)
   - [Step 3: Execute the Script](#step-3-execute-the-script)
 - [Conclusion](#conclusion)
+- [Contact](#contact)
 - [Reference](#reference)
+
+---
 
 ## Introduction
 This script provides an automated way to install or update Python on a Linux system. It downloads the desired Python version, compiles it from source, and configures the environment for immediate use. This ensures that you always have the latest or your specified version of Python installed efficiently.
+
+---
 
 ## Installation
 
 ### Step 1: Create the Script File
 
 1. Create a new file named `python_install.sh`.
-2. Copy and paste the following script into the file:
+
+ `python_install.sh`.
+
 
 ```bash
 #!/bin/bash
@@ -167,16 +182,29 @@ To list all available Python versions, run:
 ```bash
 ./python_install.sh -v
 ```
+If no version is provided, the script installs the latest stable version by default.
+
 To check the install python version, run:
 
 ```bash
 python3 --version
 ```
 
-If no version is provided, the script installs the latest stable version by default.
+
+
+---
 
 ## Conclusion
 This script simplifies the process of installing and managing Python versions on Linux. It ensures that all dependencies are met, Python is built from source, and the environment is configured for immediate use.
+
+---
+
+## **Contact** 
+| **Name**           | **Email Address**                                 |
+|----------------|-----------------------------------------------|
+| Durgesh Sharma | durgesh.sharma.snaatak@mygurukulam.co         |
+
+---
 
 ## Reference
 
