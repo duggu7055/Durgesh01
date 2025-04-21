@@ -143,6 +143,8 @@ Run the following command to install:
 Run the command to start the software:  
 [Add the start command here]  
 
+> **Tips:** Add screenshots that demonstrate the installation process of the software and display the software version to make it more intuitive and visually informative for users..
+
 ---
 
 ## Configuration
