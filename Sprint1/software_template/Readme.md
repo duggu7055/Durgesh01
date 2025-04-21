@@ -71,6 +71,8 @@ This document outlines the key aspects of the software, including its features, 
 
 Write key features that are the most important and standout parts of something that make it special or useful, like the main things that make something different from everything else.
 
+- **Tips:** Mention the data in tabular form to make it clearer and easier to understand.
+
 ---
 
 ## Getting Started
@@ -89,10 +91,9 @@ The mandatory items required to install or use the software are as follows:
 
 ## Software Overview
 
-| **Software** | **Version** |
-|--------------|-------------|
-| ExampleApp   | 1.0.0       |
-
+| **Software**   | **Version** | **Description**                                       | **Release Date** |
+|----------------|-------------|-------------------------------------------------------|------------------|
+| ExampleApp     | 1.0.0       | A powerful application designed for data processing.   | 01-01-2025       |
 ---
 
 ## System Requirement
@@ -102,7 +103,7 @@ The mandatory items required to install or use the software are as follows:
 | Processor/Instance Type    | Dual-Core/T2.medium instance     |
 | RAM                        | 4 Gigabyte or Higher             |
 | ROM (Disk Space)           | 10 Gigabyte or Higher            |
-| OS Required                | Linux (Version)                 |
+| OS Required                | Window ,Linux, macOS                |
 
 ---
 
