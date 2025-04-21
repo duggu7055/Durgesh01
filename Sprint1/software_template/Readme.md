@@ -1,16 +1,15 @@
 
 # Software Template
 
-<img src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?t=st=1745232210~exp=1745235810~hmac=57a5f3795eff05285744c37dacf73dd58715e1ccf673d2fc9be22e8902a5e4a9&w=740" alt="logo" width="900" height="450">
 
 
 ## Author Information
 
 | **Created**       | **Version** | **Last Modified** | **Author**        | **Level**            | **Reviewer**  |
 |--------------------|-------------|-------------------|-------------------|----------------------|---------------|
-| 14-04-2025         | V1          | 14-04-2025        | Durgesh Sharma    | Internal review      | Pritam        |
-| 14-04-2025         | V2          | 17-04-2025        | Durgesh Sharma    | L0 Review            | Shreya Jaiswal|
-| 14-04-2025         |             |                   | Durgesh Sharma    | L1 Review            | Abhishek V    |
+|          |           |         |     | Internal review      | Pritam        |
+|          |           |         |     | L0 Review            | Shreya Jaiswal|
+|          |             |                   |    | L1 Review            | Abhishek V    |
 
 ---
 
@@ -19,23 +18,20 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [History](#history)
-3. [Why](#why)
-4. [What](#what)
-5. [Key Features](#key-features)
-6. [Getting Started](#getting-started)
+2. [Key Features](#key-features)
+3. [Getting Started](#getting-started)
    - [Pre-requisites](#pre-requisites)
-7. [Software Overview](#software-overview)
-8. [System Requirement](#system-requirement)
-9. [Important Ports](#important-ports)
-10. [Dependencies](#dependencies)
+4. [Software Overview](#software-overview)
+5. [System Requirement](#system-requirement)
+6. [Important Ports](#important-ports)
+7. [Dependencies](#dependencies)
     - [Run-time Dependency](#run-time-dependency)
     - [Other Dependency](#other-dependency)
-11. [How to Setup/Install](#how-to-setupinstall-software-name)
-12. [Configuration](#configuration)
-13. [Conclusion](#conclusion)
-14. [Contact](#contact)
-15. [References](#references)
+8. [How to Setup/Install](#how-to-setupinstall-software-name)
+9. [Configuration](#configuration)
+10. [Conclusion](#conclusion)
+11. [Contact](#contact)
+12. [References](#references)
 
 
 
@@ -49,26 +45,9 @@ This document creates a basic software template. A software template is a pre-de
 
 ---
 
-## History
-
-The software was first developed in [Year], aiming to address [Initial purpose or problem]. Over the years, it has evolved with key updates that introduced [Notable feature or improvement], making it a popular choice for [Target audience or industry]. Today, it continues to be widely used and regularly updated to meet modern needs.
-
----
 
 
 
-## Why
-
-This software is built to streamline [specific task or process], saving users time and effort. It offers powerful capabilities that make it ideal for [target audience], ensuring enhanced productivity and performance.
-
-
----
-
-## What
-
-This software is a comprehensive solution that integrates [key features] to deliver [specific functionality]. It supports [user base] in [desired outcome or task], making it an all-in-one tool for [use case].
-
----
 
 ## Key Features
 
@@ -94,9 +73,9 @@ The mandatory items required to install or use the software are as follows:
 
 ## Software Overview
 
-| **Software**   | **Version** | **Description**                                       | **Release Date** |
-|----------------|-------------|-------------------------------------------------------|------------------|
-| ExampleApp     | 1.0.0       | A powerful application designed for data processing.   | 01-01-2025       |
+| **Software**   | **Version** | **Description**                                       
+|----------------|-------------|-------------------------------------------------------|
+| ExampleApp     | 1.0.0       | A powerful application designed for data processing.   | 
 ---
 
 ## System Requirement
